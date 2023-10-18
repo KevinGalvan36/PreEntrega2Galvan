@@ -49,6 +49,11 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    background-color: rgb(38, 204, 149);
+    color: black;
+}
+
 body {
     position: relative;
     padding-bottom: 3em;
@@ -88,7 +93,7 @@ body {
     grid-auto-columns: 100%;
 }
 
-.form_input {
+.form_input{
     font-size: 1rem;
     padding: .8em 1em;
 }
@@ -110,7 +115,7 @@ body {
     cursor: pointer;
 }
 
-.form_i {
+.form_i{
     display: flex;
     justify-content: center;
     padding: 1em;
