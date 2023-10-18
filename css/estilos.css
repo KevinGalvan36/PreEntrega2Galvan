@@ -12,6 +12,10 @@
     --size-parrafos: 25px;
 }
 
+.card img {
+    width: 150px;
+}
+
 footer {
     background-color: var(--color-principal);
     padding: 1em 0;
@@ -24,12 +28,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-body {
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
 }
 
 header {
@@ -51,14 +49,21 @@ a{
     text-decoration: none;
 }
 
+body {
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
 .contenedor { 
     background-image: url(../imagenes/group.png);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 200px;
+    width: 100%;
 }
 
 #politicaDeDevolucionYCambio {
