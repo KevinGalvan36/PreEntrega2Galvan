@@ -50,8 +50,7 @@ a{
 }
 
 a:hover{
-    background-color: rgb(38, 204, 149);
-    color: black;
+    color: burlywood;
 }
 
 body {
@@ -149,37 +148,6 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.productos-contenedor {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
-    width: 100%;
-}
-
-.remera-negra-frente {
-    grid-area: r-n-frente;
-}
-
-.remera-negra-atras {
-    grid-area: r-n-atras;
-}
-
-.remera-blanca-frente {
-    grid-area: r-b-frente;
-}
-
-.remera-blanca-atras {
-    grid-area: r-b-atras;
-}
-
-.remera-violeta-frente {
-    grid-area: r-v-frente;
-}
-
-.remera-violeta-atras {
-    grid-area: r-v-atras;
 }
 
 .productos{
