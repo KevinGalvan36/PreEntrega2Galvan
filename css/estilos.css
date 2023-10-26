@@ -1,163 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica;
-}
-
-:root{
-    --color-principal: #B096FD;
-    --color-secundario: black;
-    --color-bordes: gray;
-    --fuente-principal: helvetica;
-    --size-parrafos: 25px;
-}
-
-.card img {
-    width: 150px;
-}
-
-footer {
-    background-color: var(--color-principal);
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    margin-top: auto;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header {
-    background-color: var(--color-principal);
-    padding: 20px;
-    letter-spacing: 0.2em;
-    margin-bottom: 1em;
-    font-family: var(--fuente-principal);
+* {
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-    align-items: center;
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+.contenedor {
+  background-image: url(../imagenes/group.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 200px;
+  width: 100%;
 }
 
-a:hover{
-    color: burlywood;
+.ropa {
+  padding: 80px 0;
+}
+
+header {
+  background-color: --color-principal;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  font-family: --fuente-principal;
 }
 
 body {
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 100vh;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
+  font-family: Helvetica;
 }
 
-.contenedor { 
-    background-image: url(../imagenes/group.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 200px;
-    width: 100%;
+footer {
+  background-color: #B096FD;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin-top: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: burlywood;
 }
 
-#politicaDeDevolucionYCambio {
-    font-family: var(--fuente-principal);
-    font-size: var(--size-parrafos);
-    margin: 100px;
-    padding: 25px 20px;
-}
-
-.form {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 250px;
-}
 .form_contenedor {
-    width: 100%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
 }
 
-.form_input{
-    font-size: 1rem;
-    padding: .8em 1em;
+.form_input {
+  font-size: 1rem;
+  padding: 0.8em 1em;
 }
 
 .form_input--message {
-    resize: none;
-    padding: 1.8em 1em;
-    margin-bottom: .5em;
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
 }
 
 .form_cta {
-    font-size: 1rem;
-    background-color: var(--color-principal);
-    color: var(--color-secundario);
-    border: none;
-    font-weight: 300;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
+  font-size: 1rem;
+  background-color: #B096FD;
+  color: black;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
 }
 
-.form_i{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
+.form_i {
+  display: flex;
+  justify-content: center;
 }
 
 .form_contenedor_i {
-    width: 50%;
-    display: grid;
-    gap: 1em;
-    grid-auto-columns: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
 }
 
 .form_iniciar {
-    font-size: 1rem;
-    padding: .8em 1em;
+  font-size: 1rem;
+  padding: 0.8em 1em;
 }
 
 .form_Sesion {
-    font-size: 1rem;
-    background-color: var(--color-principal);
-    color: var(--color-secundario);
-    border: none;
-    font-weight: 300;
-    padding: .7em 0;
-    border-radius: .2em;
-    cursor: pointer;
+  font-size: 1rem;
+  background-color: #B096FD;
+  color: black;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
 }
 
 .parrafo_del_inicio {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-.productos{
-    display: flex;
-    width: 100%;
-    justify-content: start;
-    flex-direction: column;
+.card img {
+  width: 150px;
 }
 
 .dropdown {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
+
+#politicaDeDevolucionYCambio {
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

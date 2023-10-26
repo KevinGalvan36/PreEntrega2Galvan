@@ -1,0 +1,17 @@
+//General
+@import "./general/variables.scss";
+@import "./general/tipografias.scss";
+@import "./general/reiniciar.scss";
+
+//Diseños
+@import "./paginas/index.scss";
+@import "./diseños/header.scss";
+@import "./diseños/body.scss";
+@import "./diseños/main.scss";
+@import "./diseños/footer.scss";
+
+//Paginas
+@import "./paginas/contacto.scss";
+@import "./paginas/iniciar-sesion.scss";
+@import "./paginas/productos.scss";
+@import "./paginas/politica-de-devoluciones-y-cambio.scss";

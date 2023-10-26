@@ -1,0 +1,25 @@
+.form_contenedor {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form_input{
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+.form_input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form_cta {
+    font-size: 1rem;
+    background-color: $color-principal;
+    color: $color-secundario;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+}
