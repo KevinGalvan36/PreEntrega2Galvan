@@ -23,4 +23,9 @@ nav ul li {
 }
 .carouselExample{
     background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+    img{
+        max-width: 100%
+    }
 }

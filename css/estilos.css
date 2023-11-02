@@ -31,6 +31,11 @@ nav ul li a {
 
 .carouselExample {
   background-size: contain;
+  width: 100%;
+  margin: 0 auto;
+}
+.carouselExample img {
+  max-width: 100%;
 }
 
 header {
@@ -140,9 +145,19 @@ footer a:hover {
   flex-direction: row-reverse;
 }
 
+.btn-primary {
+  background-color: #B096FD;
+  border: #B096FD;
+}
+
 #politicaDeDevolucionYCambio {
   font-family: Helvetica;
   font-size: 25px;
+}
+
+.dropdown-menu {
+  background-color: #B096FD;
+  color: #1B2432;
 }
 
 /*# sourceMappingURL=estilos.css.map */
