@@ -4,6 +4,7 @@
 }
 
 nav ul li {
+  background-color: rgba(176, 150, 253, 0.6);
   list-style: none;
   display: inline-block;
   padding: 0 20px;
@@ -33,10 +34,54 @@ nav ul li a {
   background-size: contain;
   width: 100%;
   margin: 0 auto;
-  object-fit: cover;
-  height: 100vh;
 }
 
+.contenedor-dif {
+  display: flex;
+  justify-content: center;
+}
+.contenedor-dif .cuadrado-uno {
+  background-color: #555;
+  width: 350px;
+  height: 250px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.contenedor-dif .cuadrado-dos {
+  background-color: #555;
+  width: 350px;
+  height: 250px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.contenedor-dif .cuadrado-tres {
+  background-color: #555;
+  width: 350px;
+  height: 250px;
+  margin-top: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.button, .contenedor-info .info-tres, .contenedor-info .info-dos, .contenedor-info .info-uno {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #666;
+  background-color: rgba(238, 130, 238, 0.3);
+}
+
+.contenedor-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
 header {
   background-color: --color-principal;
   padding: 20px;
@@ -255,6 +300,7 @@ body {
   font-family: Helvetica;
   font-size: 25px;
   margin: 100px 100px;
+  text-align: center;
 }
 #politicaDeDevolucionYCambio .parrafo-uno {
   margin: 100px;
