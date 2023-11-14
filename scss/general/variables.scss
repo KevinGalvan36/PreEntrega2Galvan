@@ -2,3 +2,9 @@ $color-principal: #B096FD;
 $color-secundario: black;
 $color-bordes: gray;
 $size-parrafos: 25px;
+
+@if $color-principal == #B096FD{
+    $color-parrafo: gray
+}@else{
+    $color-parrafo: brown
+}

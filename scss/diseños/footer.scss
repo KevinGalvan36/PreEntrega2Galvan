@@ -30,12 +30,16 @@
         padding-bottom: 10px;
         display: inline-block;
     }
-    ul li a{
-        font-size: 18px;
-        text-decoration: none;
-        color: #BBBBBB;
-        display: block;
-        margin-bottom: 15px;
+    ul{
+        li{
+            a{
+                font-size: 18px;
+                text-decoration: none;
+                color: #BBBBBB;
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
     }
 }
 .social-link{
