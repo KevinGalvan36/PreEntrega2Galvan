@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* INDEX */
+
 nav ul li {
   background-color: rgba(176, 150, 253, 0.6);
   list-style: none;
@@ -82,6 +84,11 @@ nav ul li a {
   align-items: center;
   margin: 30px;
 }
+
+/* FIN DEL INDEX */
+
+/* HEADER */
+
 header {
   background-color: --color-principal;
   padding: 20px;
@@ -90,12 +97,20 @@ header {
   font-family: --fuente-principal;
 }
 
+/* FIN DEL HEADER */
+
+/* BODY */
+
 body {
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
   font-family: Helvetica;
 }
+
+/* FIN DEL BODY */
+
+/* FOOTER */
 
 * {
   padding: 0;
@@ -166,6 +181,11 @@ body {
     margin-bottom: 30px;
   }
 }
+
+/* FIN DEL FOOTER */
+
+/* CONTACTO */
+
 .form_contenedor {
   width: 100%;
   display: grid;
@@ -194,6 +214,10 @@ body {
   border-radius: 0.2em;
   cursor: pointer;
 }
+
+/* FIN DE CONTACTO */
+
+/* GALERIA */
 
 * {
   margin: 0;
@@ -248,6 +272,10 @@ body {
   }
 }
 
+/* FIN DE GALERIA */
+
+/* INICIAR SESION */
+
 .form_i {
   display: flex;
   justify-content: center;
@@ -282,6 +310,10 @@ body {
   align-items: center;
 }
 
+/* FIN DE INICIAR SESION */
+
+/* PRODUCTOS */
+
 .card img {
   width: 150px;
 }
@@ -289,12 +321,16 @@ body {
 .dropdown {
   display: flex;
   flex-direction: row-reverse;
-}
-
+}OTONES
+BOTONES
 .btn-primary {
   background-color: #B096FD;
   border: #B096FD;
 }
+
+/* FIN DE PRODUCTOS */
+
+/* POLITICA DE DEVOLUCIONES Y CAMBIO */
 
 #politicaDeDevolucionYCambio {
   font-family: Helvetica;
@@ -315,9 +351,15 @@ body {
   margin: 100px;
 }
 
+/* FIN DE PRODUCTOS DE DEVOLUCIONES Y CAMBIO */
+
+/* BOTONES */
+
 .dropdown-menu {
   background-color: #B096FD;
   color: #1B2432;
 }
+
+/* FIN DE BOTONES */
 
 /*# sourceMappingURL=estilos.css.map */
