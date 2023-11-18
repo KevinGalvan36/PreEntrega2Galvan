@@ -374,6 +374,15 @@ body {
   margin: 100px 100px;
   text-align: center;
 }
+#politicaDeDevolucionYCambio .dev-dos {
+  margin-top: 40px;
+}
+#politicaDeDevolucionYCambio .dev-tres {
+  margin-top: 40px;
+}
+#politicaDeDevolucionYCambio .dev-cuatro {
+  margin-top: 40px;
+}
 
 @media (max-width: 800px) {
   .container {
