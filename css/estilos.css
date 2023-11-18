@@ -3,10 +3,7 @@
   padding: 0;
 }
 
-/* INDEX */
-
 nav ul li {
-  background-color: rgba(176, 150, 253, 0.6);
   list-style: none;
   display: inline-block;
   padding: 0 20px;
@@ -41,6 +38,7 @@ nav ul li a {
 .contenedor-dif {
   display: flex;
   justify-content: center;
+  font-size: Helvetica;
 }
 .contenedor-dif .cuadrado-uno {
   background-color: #555;
@@ -49,6 +47,10 @@ nav ul li a {
   margin-top: 5px;
   padding: 10px;
   margin-left: 10px;
+  margin-right: 150px;
+  background-image: url(../imagenes/img7.png);
+  background-size: cover;
+  background-position: 500%;
 }
 .contenedor-dif .cuadrado-dos {
   background-color: #555;
@@ -57,6 +59,9 @@ nav ul li a {
   margin-top: 5px;
   padding: 10px;
   margin-left: 10px;
+  background-image: url(../imagenes/img4.png);
+  background-size: cover;
+  background-position: 0%;
 }
 .contenedor-dif .cuadrado-tres {
   background-color: #555;
@@ -65,6 +70,30 @@ nav ul li a {
   margin-top: 5px;
   padding: 10px;
   margin-left: 10px;
+  margin-left: 150px;
+  background-image: url(../imagenes/img1.png);
+  background-size: cover;
+  background-position: center;
+}
+.contenedor-dif .button-compra {
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15%;
+  margin-left: 100px;
+}
+@media (max-width: 800px) {
+  .contenedor-dif {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .contenedor-dif {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .button, .contenedor-info .info-tres, .contenedor-info .info-dos, .contenedor-info .info-uno {
@@ -74,20 +103,56 @@ nav ul li a {
   font-size: 22px;
   cursor: pointer;
   box-shadow: 2px 2px 10px #666;
-  background-color: rgba(238, 130, 238, 0.3);
+  background-color: rgba(251, 250, 248, 0.3);
+  margin-top: 50px;
 }
 
 .contenedor-info {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 30px;
+  font-size: Helvetica;
 }
-
-/* FIN DEL INDEX */
-
-/* HEADER */
+.contenedor-info .cont-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #B096FD;
+  height: 250PX;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  margin-right: 150px;
+}
+.contenedor-info .cont-info-dos {
+  display: flex;
+  flex-direction: column;
+  background-color: #B096FD;
+  height: 250PX;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+}
+.contenedor-info .cont-info-tres {
+  display: flex;
+  flex-direction: column;
+  background-color: #B096FD;
+  height: 250PX;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  margin-left: 150px;
+}
+.contenedor-info .info-uno {
+  background-color: #C0FDFF;
+}
+.contenedor-info .info-dos {
+  background-color: #C8E7FF;
+}
+.contenedor-info .info-tres {
+  background-color: #D0D1FF;
+}
 
 header {
   background-color: --color-principal;
@@ -97,20 +162,12 @@ header {
   font-family: --fuente-principal;
 }
 
-/* FIN DEL HEADER */
-
-/* BODY */
-
 body {
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
   font-family: Helvetica;
 }
-
-/* FIN DEL BODY */
-
-/* FOOTER */
 
 * {
   padding: 0;
@@ -119,7 +176,7 @@ body {
   list-style: none;
 }
 
-.container {
+.container-uno {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -181,11 +238,6 @@ body {
     margin-bottom: 30px;
   }
 }
-
-/* FIN DEL FOOTER */
-
-/* CONTACTO */
-
 .form_contenedor {
   width: 100%;
   display: grid;
@@ -214,10 +266,6 @@ body {
   border-radius: 0.2em;
   cursor: pointer;
 }
-
-/* FIN DE CONTACTO */
-
-/* GALERIA */
 
 * {
   margin: 0;
@@ -272,10 +320,6 @@ body {
   }
 }
 
-/* FIN DE GALERIA */
-
-/* INICIAR SESION */
-
 .form_i {
   display: flex;
   justify-content: center;
@@ -310,10 +354,6 @@ body {
   align-items: center;
 }
 
-/* FIN DE INICIAR SESION */
-
-/* PRODUCTOS */
-
 .card img {
   width: 150px;
 }
@@ -321,16 +361,12 @@ body {
 .dropdown {
   display: flex;
   flex-direction: row-reverse;
-}OTONES
-BOTONES
+}
+
 .btn-primary {
   background-color: #B096FD;
   border: #B096FD;
 }
-
-/* FIN DE PRODUCTOS */
-
-/* POLITICA DE DEVOLUCIONES Y CAMBIO */
 
 #politicaDeDevolucionYCambio {
   font-family: Helvetica;
@@ -338,28 +374,22 @@ BOTONES
   margin: 100px 100px;
   text-align: center;
 }
-#politicaDeDevolucionYCambio .parrafo-uno {
-  margin: 100px;
-}
-#politicaDeDevolucionYCambio .parrafo-dos {
-  margin: 100px;
-}
-#politicaDeDevolucionYCambio .parrafo-tres {
-  margin: 100px;
-}
-#politicaDeDevolucionYCambio .parrafo-cuatro {
-  margin: 100px;
-}
 
-/* FIN DE PRODUCTOS DE DEVOLUCIONES Y CAMBIO */
-
-/* BOTONES */
-
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
 .dropdown-menu {
   background-color: #B096FD;
   color: #1B2432;
 }
-
-/* FIN DE BOTONES */
 
 /*# sourceMappingURL=estilos.css.map */

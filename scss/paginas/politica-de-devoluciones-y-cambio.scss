@@ -3,16 +3,18 @@
     font-size: $size-parrafos;
     margin: 100px 100px;
     text-align: center;
-    .parrafo-uno{
-        margin: 100px;
+}
+
+@media (max-width:800px){
+    .container{
+        display: flex;
+        justify-content: center;
     }
-    .parrafo-dos{
-        margin: 100px;
-    }
-    .parrafo-tres{
-        margin: 100px;
-    }
-    .parrafo-cuatro{
-        margin: 100px;
+}
+
+@media (max-width:320px){
+    .container{
+        display: flex;
+        justify-content: center;
     }
 }
