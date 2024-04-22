@@ -83,18 +83,6 @@ nav ul li a {
   margin-top: 15%;
   margin-left: 100px;
 }
-@media (max-width: 800px) {
-  .contenedor-dif {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media (max-width: 320px) {
-  .contenedor-dif {
-    display: flex;
-    justify-content: center;
-  }
-}
 
 .button, .contenedor-info .info-tres, .contenedor-info .info-dos, .contenedor-info .info-uno {
   border: none;
@@ -154,6 +142,40 @@ nav ul li a {
   background-color: #D0D1FF;
 }
 
+@media (max-width: 800px) {
+  .contenedor-dif .cuadrado-uno {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+  .contenedor-dif .cuadrado-dos {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+  .contenedor-dif .cuadrado-tres {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 320px) {
+  .contenedor-dif .contenedor-dif .cuadrado-uno {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+  .contenedor-dif .contenedor-dif .cuadrado-dos {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+  .contenedor-dif .contenedor-dif .cuadrado-tres {
+    display: flex;
+    margin: 15%;
+    flex-direction: column;
+  }
+}
 header {
   background-color: --color-principal;
   padding: 20px;
@@ -243,11 +265,14 @@ body {
   display: grid;
   gap: 1em;
   grid-auto-columns: 100%;
+  text-align: center;
 }
 
 .form_input {
-  font-size: 1rem;
+  font-size: 10px;
   padding: 0.8em 1em;
+  width: 75%;
+  margin-left: 200px;
 }
 
 .form_input--message {
@@ -265,6 +290,8 @@ body {
   padding: 0.7em 0;
   border-radius: 0.2em;
   cursor: pointer;
+  width: 50%;
+  margin-left: 450px;
 }
 
 * {
